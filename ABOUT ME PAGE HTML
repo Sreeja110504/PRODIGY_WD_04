@@ -1,0 +1,44 @@
+<!-- HTML OF ABOUT-ME PAGE -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>About Me</title>
+</head>
+
+<body>
+    <section>
+        <div class="about-us">
+            <h1>About Me</h1>
+            <div class="wrapper">
+                <div class="content">
+                    <h3>Hi, I'm Sreeja Bhattacharya!.As a passionate Frontend developer, I've been building web applications that are innovative and helpful for users. With a strong foundation in HTML5, CSS3, and JavaScript, I'm always looking for new challenges to improve my skills.
+                    </h3>
+                    <p>I discovered my love for coding through online tutorials and coding challenges. Since then, I've been hooked on learning new technologies and contributing to open-source projects.I believe in building applications that are both visually appealing and user-friendly. I prioritize simplicity, elegance, and scalability in my designs.
+                    </p>
+                    <div class="button">
+                        <a href="Readmore.html">Read more</a>
+                    </div>
+                    <div class="social">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="image-section">
+                    <img src="Sreeja_about.jpeg">
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
