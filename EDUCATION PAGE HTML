@@ -1,0 +1,121 @@
+<!-- HTML OF EDUCATION PAGE -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Educational Experience</title>
+    <link rel="stylesheet" href="education.css">
+</head>
+
+<body>
+    <div class="container">
+        <main class="row">
+            <!-- Education section starts -->
+
+            <section class="col">
+                <header class="title">
+                    <h2>EDUCATION</h2>
+                </header>
+
+                <div class="contents">
+
+                    <div class="box">
+                        <h4>2020</h4>
+                        <h3>CLASS 10 BOARDS ICSE</h3>
+                        I qualified class 10 boards from CISCE board(ICSE) from Garden High School with a score of 95.6%.
+                        <p><b><u>Some Special Achievements</u></b></p>
+                         *I was awarded a prize for regularity in school.
+                         <p><b>*I stood first in Home Science(6th subject) cosecutively for classes 9 and 10 and received awards from school for the achievement.</b></p>
+                         
+                    </div>
+
+                    <div class="box">
+                        <h4>2022</h4>
+                        <h3>CLASS 12 BOARDS ISC</h3>
+                        I qualified class 12 boards from CISCE board(ISC) from Garden High School with a score of 98.25%.
+                    </div>
+
+
+                    <div class="box">
+                        <h4>2022-2026</h4>
+                        <h3>BTECH IN CSE</h3>
+                        I am persuing BTech in Computer Science and Engineering from Meghnad Saha Institute of Technology.
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- Education section ends -->
+
+            <!-- Experience section starts -->
+
+            <section class="col">
+                <header class="title">
+                    <h2>EXPERIENCE</h2>
+                </header>
+
+                <div class="contents">
+
+                    <div class="box">
+                        <h4>2018-2020</h4>
+                        <h3>SCHOOL MUSIC CLUB</h3>
+                        As a dedicated member of the school music club, I actively participated in various events, including concerts, competitions, and charity performances. I took on leadership roles, organizing and coordinating events, and developed my musical skills, teamwork, communication, and time management skills. Through this experience, I had a profound impact on my life, building my confidence and stage presence, which has been invaluable in my personal and professional life. 
+                    </div>
+
+                    <div class="box">
+                        <h4>2020</h4>
+                        <h3>HOME SCIENCE COOKING</h3>
+                        I stood first in Home Science in both theory and pratical examinations consecutively for classes 9 and 10. Was awarded several prizes for the achievement.
+                    </div>
+
+                    <div class="box">
+                        <h4>2022</h4>
+                        <h3>DEBATE COMPETITION IN COLLEGE</h3>
+                        I took part in the intra-college Annual Debate Competition and stood second. 
+                    </div>
+
+                    <div class="box">
+                        <h4>2023</h4>
+                        <h3>HACKATHON</h3>
+                       I took part in Smart India Hackathon. 
+                    </div>
+
+                    <div class="box">
+                        <h4>2023-2024</h4>
+                        <h3>WEB DEVELOPER</h3>
+                       I have leveraged my skills in web development to drive numerous projects forward, showcasing my proficiency in front-end development. With a relentless pursuit of knowledge, I am now eager to expand my scope and learn back-end development, unlocking new possibilities for innovative solutions.
+                    </div>
+
+                    <div class="box">
+                        <h4>2023-2024</h4>
+                        <h3>WEB DESIGNER</h3>
+                        I cultivate my creative passion for web design by relentlessly seeking out  online resources, constantly refining my skills. I have successfully applied this knowledge to a range of projects, showcasing my expertise in crafting visually stunning and user-friendly digital experiences.
+                    </div>
+
+                    <div class="box">
+                        <h4>2023-2024</h4>
+                        <h3>CODING ENTHUSIASIST</h3>
+                        Being a coding enthusiasist, I have learnt several coding languages like C, Java, Python, HTML,CSS, Javascript and I am preparing several projects applying these languages. 
+                    </div>
+
+                    <div class="box">
+                        <h4>2024</h4>
+                        <h3>INTERNSHIP</h3>
+                        I got an opportunity to intern at Prodigy InfoTech as a web developer. I unleashed my creative potential and drove the development of numerous innovative web projects. Through this experience, I accelerated my skillset by mastering new cutting-edge technologies, and successfully applied my web development expertise to deliver solutions.
+                    </div>
+                    
+
+                </div>
+            </section>
+
+
+            <!-- Experience section ends -->
+        </main>
+
+
+    </div>
+</body>
+
+</html>
