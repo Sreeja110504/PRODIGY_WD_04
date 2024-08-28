@@ -1,0 +1,95 @@
+<!-- HTML OF PROJECTS PAGE -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Projects</title>
+    <link rel="stylesheet" href="projects.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Project Section -->
+     <section id="project">
+
+        <div class="project-heading">
+            <span>My works</span>
+            <h3>My Projects</h3>
+        </div>
+
+       
+        <div class="project-filter">
+            <li class="list project-filter-active border" data-filter="all"><a href="Projects.html">All</a></li>
+            <li class="list" data-filter="app" ><a href="App_development.html">Application Design</a></li>
+            <li class="list" data-filter="web"><a href="web_development.html">Web Development</a></li>
+            <li class="list" data-filter="game"><a href="game_design.html">Game Design</a></li>
+            <li class="list" data-filter="watch"><a href="watch_design.html">Watch Design</a></li>
+           
+        </div>
+
+         <!-- container -->
+
+         <div class="project-container">
+            <!-- box-1 (about-app)-->
+             <a href="Projects.html" class="project-box app">
+                <img src="my_projects.jpg" alt="work">
+             </a>
+
+              <!-- box-2 (about-app)-->
+             <a href="App_development.html" class="project-box app">
+                <img src="application_design.jpeg" alt="work">
+             </a>
+
+             <!-- box-3 (about-website)-->
+             <a href="web_development.html" class="project-box web">
+                <img src="web_design.png" alt="work">
+             </a>
+
+             <!-- box-4 (about-game)-->
+             <a href="game_design.html" class="project-box game">
+                <img src="game_design.png" alt="work">
+             </a>
+
+              <!-- box-4 (about-watch)-->
+             <a href="watch_design.html" class="project-box watch">
+                <img src="watch_design.png" alt="work">
+             </a>
+        </div>
+     </section>
+
+     <script src="js/JQuery.js"></script>
+
+     <script type="text/javascript">
+
+        $(document).on('click', '.project-filter li',function(){
+            $(this).addClass('project-filter-active').siblings().removeClass('project-filter-active')
+        })
+
+      /*--for project/work filter--*/
+      $(document).ready(function(){
+         $('.list').click(function(){
+            const value= $(this).attr('data-filter');
+            if(value== 'all'){
+               $('.project-box').show('1000');
+            }
+            else{
+               $('.project-box').not('.'+ value).hide('1000');
+               $('.project-box').filter('.'+ value).hide('1000');
+            }
+         });
+      });
+     </script>
+    
+</body>
+</html>
